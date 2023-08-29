@@ -15,4 +15,13 @@ In the last few years, it has been a growing interest of the computer vision com
 
 # PART B: Anomaly detection framework for microscopic cell image analysis 
 
+In the second part of this tutorial, we will use an open source dataset containing 6400 images belonging to 10 different species of freshwater plankton.
+The dataset has been released in [1]. 
+
+![DATASET](https://github.com/Malga-Vision/Computer-Vision-and-Machine-Learning-for-Bioengineering-Applications/assets/51142446/b095740a-0874-42e9-9561-025da81b4a3f)
+
+
+
+
+[1] Pastore, V. P., Zimmerman, T. G., Biswas, S. K., & Bianco, S. (2020). Annotation-free learning of plankton for classification and anomaly detection. Scientific reports, 10(1), 12142.
 https://ibm.box.com/v/PlanktonData
