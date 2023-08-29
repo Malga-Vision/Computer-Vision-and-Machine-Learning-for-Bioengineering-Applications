@@ -15,13 +15,26 @@ In the last few years, it has been a growing interest of the computer vision com
 
 # PART B: Anomaly detection framework for microscopic cell image analysis 
 
-In the second part of this tutorial, we will use an open source dataset containing 6400 images belonging to 10 different species of freshwater plankton.
+In the second part of this tutorial, we will implement an anomaly detection framework for the analysis of microscopy cell images.
+We will implement three main steps:
+
+1. **Image processing and deep learning based segmentation**. We will segment the cell body from the background of the image for the next step.
+2. **Descriptors engineering**. We will engineer a set of descriptors for our cells;
+3. **Anomaly detection**. We will implement anomaly detection algorithms for the classification of in- and out-of-class samples, based on the descriptors engineered in the second step.
+  
+As a test dataset, we will use an open source dataset containing 6400 images belonging to 10 different species of freshwater plankton.
 The dataset has been released in [1]. 
+
+For this tutorial, we select a subset containing five species, as shown in Fig. 1. 
 
 ![DATASET](https://github.com/Malga-Vision/Computer-Vision-and-Machine-Learning-for-Bioengineering-Applications/assets/51142446/b095740a-0874-42e9-9561-025da81b4a3f)
 
-
+**Figure 1. Sample images of the five species considered in this tutorial. From the left to the right: ACTINOSPHAERIUM NUCLEOFILUM; PARAMECIUM BURSARIA; VOLVOX; SPIROSTOMUM AMBIGUUM; STENTOR COERULEUS.** 
 
 
 [1] Pastore, V. P., Zimmerman, T. G., Biswas, S. K., & Bianco, S. (2020). Annotation-free learning of plankton for classification and anomaly detection. Scientific reports, 10(1), 12142.
 https://ibm.box.com/v/PlanktonData
+
+
+
+The second part of this tutorial will be released soon as a jupyter notebook. 
