@@ -13,6 +13,8 @@ In the last few years, it has been a growing interest of the computer vision com
 
 # PART A: Video-based human motion analysis 
 
+More details to be released soon 
+
 # PART B: Anomaly detection framework for microscopic cell image analysis 
 
 In the second part of this tutorial, we will implement an anomaly detection framework for the analysis of microscopy cell images.
@@ -37,4 +39,4 @@ https://ibm.box.com/v/PlanktonData
 
 
 
-The second part of this tutorial will be released soon as a jupyter notebook. 
+The second part of this tutorial will be released soon as a jupyter notebook. An introductory presentation will be released soon as well. 
