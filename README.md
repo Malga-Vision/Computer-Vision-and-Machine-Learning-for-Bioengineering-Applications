@@ -13,7 +13,18 @@ In the last few years, it has been a growing interest of the computer vision com
 
 # PART A: Video-based human motion analysis 
 
-More details to be released soon 
+In the first part of this tutorial, we focus on the application of CV and ML methods for human motion analysis. In particular, we explain and provide guidance for all the steps necessary to perform markerless gait analysis. Gait analysis is a fundamental tool in medicine and rehabilitation. It helps expert physicians to characterize and monitor motion patterns after orthopedic injuries and in people with neurological diseases. Infrared marker-based motion capture systems (MoCap) have been developed to track continuous motion in the 3D space. Due to their high level of precision, infrared marker-based systems are considered the gold standard in modern gait analysis. However, these approaches have limitations. First of all, they require many markers to be attached firmly to the body of the person. This process is time consuming and expensive, resulting in a cumbersome setup that can influence the naturalness of the motion. Also, these systems require skilled personnel to apply the markers correctly and to post-process the recorded data, making the overall analysis operator dependent.
+Markerless video-based gait analysis has been recently proposed as an alternative to marker-based systems since it does not require expensive and cumbersome setup. The challenges presented in this field are the high data variability and the high level of accuracy required. 
+In this tutorial, we discuss the step-by-step process to perform markerless video-based gait analysis on a given video example.
+
+1. **Detection of keypoints on the human body**. To achieve this task, we leverage VisionTool, a deep learning-based semantic feature detector that can detect body parts from videos after an appropriate fine tuning. At the beginning, we label a small set of images with the points of interest (hip, knee, ankle and foot).
+Then, we train a deep learning architecture with the aim to learn to identify them. We select one of the pre-trained models available in VisionTool.
+2. **Video analysis**. Once the keypoints are labeled and the selected architecture is trained, we input the whole video to our fine tuned model and we detect the selected keypoints in all the frames composing the video. 
+3. **Filtering**. The landmarks trajectories are then filtered to reduce possible mispredictions.
+4. **Quantitative parameters extraction**. The filtered trajectories are used to extract quantitative parameters that can describe the motor task, such as: (i) gait speed, computed by estimating the displacement of keypoints over time; (ii) cadence (i.e., the number of steps per minute); (iii) step length, computed by measuring the distance between the feet landmarks while they are touching the ground; (iv) the duration of swing and stance phases, identified respectively with the time during which the foot is or is not in contact with the ground.
+
+In conclusion, with the implementation of proper techniques and tools, researchers and clinicians can perform accurate and reliable gait analysis to improve the diagnosis and treatment of various gait-related disorders without the need for cumbersome and expensive physical markers or sensors.
+ 
 
 # PART B: Anomaly detection framework for microscopic cell image analysis 
 
