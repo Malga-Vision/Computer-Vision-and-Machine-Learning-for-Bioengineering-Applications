@@ -29,7 +29,7 @@ The dataset has been released in [1].
 
 For this tutorial, we select a subset containing five species, as shown in Fig. 1. 
 
-![DATASET](https://github.com/Malga-Vision/Computer-Vision-and-Machine-Learning-for-Bioengineering-Applications/assets/51142446/b095740a-0874-42e9-9561-025da81b4a3f)
+![DATASET](https://github.com/Malga-Vision/Computer-Vision-and-Machine-Learning-for-Bioengineering-Applications/assets/51142446/59be2724-4906-44f4-89c1-b861a42ab268)
 
 **Figure 1. Sample images of the five species considered in this tutorial. From the left to the right: ACTINOSPHAERIUM NUCLEOFILUM; PARAMECIUM BURSARIA; VOLVOX; SPIROSTOMUM AMBIGUUM; STENTOR COERULEUS.** 
 
