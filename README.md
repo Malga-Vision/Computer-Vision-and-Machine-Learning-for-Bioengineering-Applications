@@ -11,7 +11,9 @@ Human motion and microscopic image analysis represent two important examples of 
 
 In the last few years, it has been a growing interest of the computer vision community towards bioengineering data. The reason for this interest is that biomedical data present particular challenges that open new research directions. Applications of interest include: automatic diagnosis, human-robot interactions, human motion characterization, rehabilitation and synthetic biology. In this tutorial, we will focus on two emerging fields of application: A) **video-based human motion analysis** and B) **anomaly detection framework for microscopic cell analysis**.
 
-# PART A: Video-based human motion analysis 
+# PART A: Video-based human motion analysis
+
+Colab notebook --> https://colab.research.google.com/drive/1pHbwSYrKMYSAufmi2J1SY_TUPL56_Hz7?usp=sharing 
 
 In the first part of this tutorial, we explain and provide guidance for all the steps necessary to perform markerless gait analysis. Gait analysis is a fundamental tool in medicine and rehabilitation. It helps expert physicians to characterize and monitor motion patterns after orthopedic injuries and in people with neurological diseases. Infrared marker-based motion capture systems (MoCap) have been developed to track continuous motion in the 3D space. Due to their high level of precision, infrared marker-based systems are considered the gold standard in modern gait analysis. However, these approaches have limitations. First of all, they require many markers to be attached firmly to the body of the person. This process is time consuming and expensive, resulting in a cumbersome setup that can influence the naturalness of the motion. Also, these systems require skilled personnel to apply the markers correctly and to post-process the recorded data, making the overall analysis operator dependent.
 Markerless video-based gait analysis has been recently proposed as an alternative to marker-based systems since it does not require expensive and cumbersome setup. The challenges presented in this field are the high data variability and the high level of accuracy required. 
