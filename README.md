@@ -48,6 +48,4 @@ For this tutorial, we select a subset containing five species, as shown in Fig. 
 [1] Pastore, V. P., Zimmerman, T. G., Biswas, S. K., & Bianco, S. (2020). Annotation-free learning of plankton for classification and anomaly detection. Scientific reports, 10(1), 12142.
 https://ibm.box.com/v/PlanktonData
 
-
-
-The second part of this tutorial will be released soon as a jupyter notebook. An introductory presentation will be released soon as well. 
+Colab Notebook: https://colab.research.google.com/drive/1x_SXvv66Yx2ab5l6-Rg2U5ZbK1PLKyJn?usp=sharing
